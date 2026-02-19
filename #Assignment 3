@@ -1,0 +1,34 @@
+#Assignment 2
+
+#1
+sed '/Zoo/Id' pandas.tsv>>panda_zoo.tsv
+
+#2
+sort -k 2 pandas.tsv | awk '{print $1,$4,$2}'>>sorted_pandas.tsv  
+
+#3
+sort -k 5 pandas.tsv | awk '{print $5}'>>panda_zoos_A2Z.tsv
+
+#4
+sed 's/female/F/g; s/male/M/g' pandas.tsv>>panda_m_f.tsv 
+
+#5
+grep "female" pandas.tsv | grep -c "October" 
+
+
+#6
+grep -n "male" pandas.tsv>>pandas_names.tsv
+
+#7
+sed -n "1p;6p;17p" pandas.tsv>>lines_1_6_17.tsv
+
+#8
+grep -i "x" pandas.tsv>>x_lines.tsv
+
+#9
+awk '{ print $5 }' pandas.tsv | sort|uniq -u>>unique_places.tsv
+
+#10
+awk '$4<11 { print $1 $4 }' pandas.tsv | sort -nk 2>>young_pandas.tsv
+
+
