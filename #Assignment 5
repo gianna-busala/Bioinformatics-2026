@@ -1,0 +1,23 @@
+#Assignment 5
+
+#3
+Task\ label=Muscle Bats Tree
+Task\ ID=3308772
+Tool=RAXMLHPC8_XSEDE
+created\ on=2026-02-24 11:55:16.0
+JobHandle=NGBW-JOB-RAXMLHPC8_XSEDE-D0EB0D93C5454529A3F090D734B43FAB
+RunNumber=1
+resource=expanse
+User\ ID=178480
+User\ Name=giannab789
+email=gianna.busala@wmich.edu
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=40
+JOBID=46732591
+
+#4
+#Syconycteris australis, Dobsonia viridis, Cynopterus sphinx, Rousettus leschenaultii, and Epomophorus wahlbergi
+
+#5
+#This information might be useful because flying foxes are considered to be disease reservoirs for diseases that can be transferred to humans. Understanding how these bats are related to other bats that may not act as significant disease reservoirs, could help scientists create ways to mitigate this cross-species disease transfer.
