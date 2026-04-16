@@ -1,0 +1,35 @@
+##Ensembl
+#1 There are 19 splice variants
+#2 There are 28 exons and 25 coding exons 
+#3 There are 27 introns 
+#4 This gene is on chromosome 13
+#5 The gene synonyms are BRCC2, FACD, FAD, FAD1, FANCD, FANCD1, XRCC11
+#6 The African Ostrich has 1 ortholog to the human BRCA2
+#7 The sequence of the second exon is: GCTCCTGGTTGTCTACCCATGGACCCAGAGGTTCTTTGACAGCTTTGGCAACCTGTCCTC
+TGCCTCTGCCATCATGGGCAACCCCAAAGTCAAGGCACATGGCAAGAAGGTGCTGACTTC
+CTTGGGAGATGCCACAAAGCACCTGGATGATCTCAAGGGCACCTTTGCCCAGCTGAGTGA
+ACTGCACTGTGACAAGCTGCATGTGGATCCTGAGAACTTCAAG  
+#8 The length of the first intron is 122 bp
+#9 There are 723 pseudogenes in this narwhal genome
+
+##Cipres 
+#10 The N4BP2L1 and ZAR1L genes flank the BRCA2 gene in humans 
+#11 The rnf32 and RBM33 genes flank the shh gene in beta fish.
+#12 There is one copy of the shh gene in beta fish.
+#13 There are two copies of shh in Atlantic salmon 
+
+
+##NCBI
+#14 There are 197 genomes for Bos taurus.
+#15 25 of these genomes are assembled into chromosomes 
+#16 They have 29 chromosomes excluding sex chromosomes
+#17 Chromosome 1 is the longest
+#18 There are 1034 microRNAs annotated in the genome
+#19 A good publication to read on this transcript would be "Gene evolution and gene expression after whole genome duplication in fish: the PhyloFish database" on PubMed
+#20 
+MDLLAKASVLLLLLLSLSNAQTDNMEEAENGSSKEEIDESELED
+VSSIIFRMNNNSMEELLEGDLVLPKTRNAMKCFGAPDSCRWPKSSNGIVKVPYVVSDN
+YESDEKETIRNAMKEFAEKTCIHFVPRNNERAYLSLEPRFGCKSMMGYVGDKQVVVLQ
+RFGCIKHAVIQHELLHALGFYHEHTRSDRDQHVKINWENIIKDFTHNFDKNDTDNLGT
+PYDYGSIMHYGRTAFGKDRKETITPIPNPKAAIGQTERMSDIDILRVNKLYKC
+
