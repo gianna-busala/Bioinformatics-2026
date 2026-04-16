@@ -1,20 +1,11 @@
 #Assignment 5
 
 #3
-Task\ label=Muscle Bats Tree
-Task\ ID=3308772
-Tool=RAXMLHPC8_XSEDE
-created\ on=2026-02-24 11:55:16.0
-JobHandle=NGBW-JOB-RAXMLHPC8_XSEDE-D0EB0D93C5454529A3F090D734B43FAB
-RunNumber=1
-resource=expanse
-User\ ID=178480
-User\ Name=giannab789
-email=gianna.busala@wmich.edu
-Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
-ChargeFactor=1.000000
-cores=40
-JOBID=46732591
+muscle -seqtype protein -in infile.fasta -maxiters 16 -hydro 5 -hydrofactor 1.2 -log logfile.txt -weight1 clustalw -distance1 kmer6_6 -cluster1 upgmb -sueff 0.1 -root1 pseudo -maxtrees 1 -weight2 clustalw -distance2 pctidkimura -cluster2 upgmb -sueff 0.1 -root2 pseudo -objscore sp -noanchors -fastaout output.fasta 
+
+
+raxmlHPC-HYBRID-AVX -T 4 -f a -N autoMRE -n bat_tree -s infile.txt -c 25 -p 12345 -m PROTCATDAYHOFF -x 12345 
+
 
 #4
 #Syconycteris australis, Dobsonia viridis, Cynopterus sphinx, Rousettus leschenaultii, and Epomophorus wahlbergi
