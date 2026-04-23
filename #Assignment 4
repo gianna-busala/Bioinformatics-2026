@@ -1,0 +1,28 @@
+#Assignment4
+
+#1
+makeblastdb -in database_mystery_transcripts.fasta -dbtype nucl -out nuc_database
+
+#2
+makeblastdb -in database_mystery_proteins.fasta -dbtype prot -out prot_database
+
+#3 
+blastn -db nuc_database -query query_mystery_nucleotide.fasta -evalue 0.001 -outfmt 7 -out nuc_blast.out -max_target_seqs 5
+
+#4 T010027234997 is the top hit followed by T010003453160 and T010027234995 with equal percent identities. 
+
+#5 
+awk '$3>90{print $2}' nuc_blast.out >>most_similar.txt 
+
+#6 
+blastp -db prot_database -query query_mystery_protein.fasta -evalue 0.00001 -outfmt 7 -out prot_blast.out -max_target_seqs 15
+
+#7 The top hit for this is P010027090796 followed by P010027090798
+
+#8 The top match sequence is Coffea arabica
+
+#9 The mystery transcript is Gardenia jasminoides
+
+#10 The mystery gene is putative catalase
+
+
